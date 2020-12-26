@@ -1,3 +1,4 @@
 @echo off
 rem Just run the python script
-python %0 %*
+rem python %0 %*
+python %~dp0\..\python\python3\cxxtestgen.py %*
